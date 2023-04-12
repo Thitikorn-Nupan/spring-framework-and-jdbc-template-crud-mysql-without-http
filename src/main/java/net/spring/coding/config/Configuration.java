@@ -12,9 +12,9 @@ public class Configuration {
     public DriverManagerDataSource dataSource () {
         dataSource = new DriverManagerDataSource();
         dataSource.setDriverClassName("com.mysql.cj.jdbc.Driver");
-        dataSource.setUrl("jdbc:mysql://127.0.0.1:3308/customer");
-        dataSource.setUsername("root-np");
-        dataSource.setPassword("642/321Architecture?222");
+        dataSource.setUrl("jdbc:mysql://127.0.0.1:3308/***");
+        dataSource.setUsername("***");
+        dataSource.setPassword("***");
         return dataSource ;
     }
 }
