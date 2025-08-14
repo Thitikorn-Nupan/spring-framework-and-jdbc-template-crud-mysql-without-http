@@ -1,6 +1,7 @@
 package net.spring.coding.model;
 
-public class Customer {
+public class Contact {
+
     private Long id;
     private String firstname;
     private Integer age;
@@ -50,7 +51,7 @@ public class Customer {
 
     @Override
     public String toString() {
-        return "Customer{" +
+        return "Contact{" +
                 "id=" + id +
                 ", firstname='" + firstname + '\'' +
                 ", age=" + age +
